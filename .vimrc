@@ -139,7 +139,7 @@ let g:ycm_confirm_extra_conf=0
 "let g:ycm_collect_identifiers_from_tag_files = 1 
 
 "### diagnostic语法诊断设置
-let g:ycm_show_diagnostics_ui = 0   "设为1之后c系的语言由YCM做检查
+let g:ycm_show_diagnostics_ui = 1   "设为1之后c系的语言由YCM做检查
 "可以关闭使Syntastic来做c系语言的检查
 let g:ycm_error_symbol = '>>'
 let g:ycm_warning_symbol = '>*'
