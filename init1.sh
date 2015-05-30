@@ -5,7 +5,7 @@
 mkdir -p $HOME/.config/terminator/
 cp .config $HOME/.config/terminator/
 cp .dircolors $HOME/.dircolors
-cat .bashrc_add $HOME/.bashrc_add
+cat .bashrc_add >> $HOME/.bashrc
 source $HOME/.bashrc
 
 
