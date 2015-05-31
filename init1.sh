@@ -3,10 +3,10 @@
 
 #---------- about terminator ------------#
 mkdir -p $HOME/.config/terminator/
-cp .config $HOME/.config/terminator/
+cp .config $HOME/.config/terminator/config
 cp .dircolors $HOME/.dircolors
-cat .bashrc_add >> $HOME/.bashrc
-source $HOME/.bashrc
+sudo cat .bashrc_add >> $HOME/.bashrc
+sudo source $HOME/.bashrc
 
 
 #-------------- about vim ---------------#
@@ -15,6 +15,10 @@ mkdir -p $HOME/.vim/bundle
 
 # get vundle
 git clone https://github.com/gmarik/vundle.git $HOME/.vim/bundle/vundle
+
+#install these before
+sudo apt-get install cmake  
+sudo apt-get install exuberant-ctags 
 
 # copy .vimrc
 cp .vimrc $HOME/.vimrc
